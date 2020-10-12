@@ -1,2 +1,2 @@
 # My-portfolio
-Open source code of my repository
+Open source code of my portfolio
