@@ -1,9 +1,3 @@
-
-# My-portfolio
-Open source code of my portfolio
-(Check homepage branch :D)
-
-
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
