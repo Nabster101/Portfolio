@@ -36,6 +36,7 @@
     "typography": "^0.16.19"
   },
   "devDependencies": {
+    "@types/aos": "^3.0.3",
     "prettier": "2.2.1",
     "typescript": "^4.1.3"
   },
