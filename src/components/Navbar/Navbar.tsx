@@ -17,7 +17,7 @@ const Navbar = () => {
                     </NavBar.Brand>
                     <Nav className="ml-auto">
                         <Nav.Item>
-                            <Button className={NavbarStyle.ButtonText} href="/contacts">Contact me!</Button>
+                            <Button className={NavbarStyle.ButtonText} href="/contacts">Let's get in touch!</Button>
                         </Nav.Item>
                     </Nav>
                 </NavBar>        
