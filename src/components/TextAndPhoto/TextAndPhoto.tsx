@@ -13,11 +13,6 @@ setTimeout(() => {
     })
 }, 1000) 
 
-import AOS from "aos"
-import "aos/dist/aos.css"
-
-AOS.init()
-
 const TextAndPhoto = () => {
     return(
         <section className={TextAndPhotoStyle.TextAndPhoto}>
