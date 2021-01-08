@@ -3,6 +3,7 @@
 
 .TextAndPhoto{
     background-color: #0A2463;
+    padding-top: 1vh;
     height: 86.5vh;
     padding-top: 1vh;
 }
@@ -18,13 +19,6 @@
         height: 450px;
         border-radius: 500px;
         border: solid white 2px;
-        animation: 
-            fadein 5s;
-
-        @keyframes fadein {
-            from { opacity: 0; }
-            to   { opacity: 1; }
-        }
     }
 }
 
@@ -44,7 +38,7 @@
     font-size: 40px;
     font-family: 'Archivo Black', sans-serif;
     animation: 
-      typing 2s steps(40, end),
+      typing 1.75s steps(40, end),
       blink-caret .75s step-end infinite;
 
     @keyframes typing {
@@ -65,15 +59,7 @@
         color: white;
         font-weight: 500;
         font-size: 22px;
-        animation: 
-            fadein 5s;
     }
-}
-
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
 
 .IconContainer{
