@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 .TextAndPhoto{
-    background-color: #473144;
-    height: 90vh;
+    background-color: #0A2463;
+    height: 86.5vh;
+    padding-top: 1vh;
 }
 
 .Container{
@@ -28,7 +29,7 @@
 }
 
 .TypeWriterName{
-    margin: 50px auto;
+    margin: 50px auto 0px;
     width: 625px;
 }
 
@@ -43,7 +44,7 @@
     font-size: 40px;
     font-family: 'Archivo Black', sans-serif;
     animation: 
-      typing 3.5s steps(40, end),
+      typing 2s steps(40, end),
       blink-caret .75s step-end infinite;
 }
 
@@ -59,22 +60,30 @@
     50% { border-color: orange; }
 }
 
-.Description{
-    color: white;
-    font-weight: 500;
-    font-size: 22px;
-    animation: 
-        fadein 5s;
+.DescriptionContainer{
+    margin: 30px auto;
+    width: 975px;
+    .Description{
+        color: white;
+        font-weight: 500;
+        font-size: 22px;
+        animation: 
+            fadein 5s;
+    }
 }
+
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-.Icon{
-    margin-top: 4vh;
-    height: 100px;
+.IconContainer{
+    margin-top: 5vh;
+    .Icon{
+        height: 100px;
+    }
 }
+
 
 
