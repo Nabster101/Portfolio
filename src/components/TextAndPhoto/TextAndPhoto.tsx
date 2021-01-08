@@ -3,6 +3,7 @@ import TextAndPhotoStyle from "./TextAndPhoto.module.scss"
 import ProfilePic from "../../images/ProfilePic.png"
 import { Container } from "react-bootstrap"
 import Icon from "../../images/Navbar-Icon.png"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -10,7 +11,7 @@ setTimeout(() => {
     AOS.init({
         duration: 1000
     })
-}, 1000)
+}, 1000) 
 
 const TextAndPhoto = () => {
     return(
