@@ -6,7 +6,11 @@ import Icon from "../../images/Navbar-Icon.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
-AOS.init();
+setTimeout(() => {
+    AOS.init({
+        duration: 1000
+    })
+}, 1000)
 
 const TextAndPhoto = () => {
     return(
