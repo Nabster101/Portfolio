@@ -1,0 +1,41 @@
+@import "../../styles/style.scss";
+
+.SkillCard{
+    height: 45vh;
+    width: 30vh;
+    border-radius: 30px;
+    transition: 0.2s; 
+}
+
+.SkillCard:hover{
+    .Title{
+        transition: 0.5s;
+        top: 5vh;
+    }
+    .Skill{
+        transition: 0.5s;
+        opacity: 1;
+    }
+}
+
+.Title{
+    height: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    transition: 0.5s;
+    top: 19vh;
+    text-shadow: 0px 3px 3px rgb(124, 124, 124);
+}
+
+.Skill{
+    transition: 0.2s;
+    opacity: 0;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    text-shadow: 0px 3px 3px rgb(124, 124, 124);
+}
