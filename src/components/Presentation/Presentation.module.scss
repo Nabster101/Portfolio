@@ -1,0 +1,62 @@
+@import "../../styles/style.scss";
+
+.Presentation{
+    height: 650px;
+}
+
+
+.ComponentTitleContainer{
+    margin-bottom: 5vh;
+}
+
+.Seperators{
+    background-color: #0A2463;
+    height: 0.5vh;
+    width: 15vh;
+    margin-top: 0.3vh;
+    display: inline-flex;
+    vertical-align: text-top;
+}
+
+.ComponentTitle{
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.ObjectivesContainer{
+    align-items: center;
+    width: 650px;
+    height: 477px;
+    border-radius: 30px 0px 0px 30px;
+    padding: 5vh 5vh 5vh 9vh;
+    background-color: #0A2463;
+    display: inline-block;
+    position: relative;
+    top: -61px;
+}
+
+.WIP{
+    margin-top: 4vh;
+    align-items: center;
+    width: 650px;
+    border-radius: 0px 30px 30px 0px;
+    padding: 5vh 5vh 5vh 9vh;
+    background-color: #0A2463;
+    display: inline-block;
+}
+
+.Title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 2vh;
+}
+
+.Description{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
