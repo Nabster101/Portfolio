@@ -1,0 +1,123 @@
+@import "../../styles/style.scss";
+
+.Projects{
+    margin-bottom: 30vh;
+}
+
+.ProjectsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.TitleContainer{
+    margin-bottom: 10vh;
+}
+
+.Seperators{
+    background-color: #0A2463;
+    height: 0.5vh;
+    width: 15vh;
+    margin-top: 0.3vh;
+    display: inline-flex;
+    vertical-align: text-top;
+}
+
+.ComponentTitle{
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+///////////////////////////////////
+
+.ProjectCard{
+    display: inline-grid;
+}
+
+#first{
+    background-image: url("../../images/CyberChallenge.png");
+    .ProjectCardButton{
+        margin-top: 0vh !important;
+        opacity: 0;
+    }
+}
+
+#first:hover{    
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(4px);
+    }
+    .ProjectCardButton{
+        margin-top: 3vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/CyberChallenge.png");
+}
+
+#second{
+    margin-right: 8vh;
+    margin-left: 8vh;
+    background-image: url("../../images/ZeroRobotics.png");
+    .ProjectCardButton{
+        margin-top: 0vh !important;
+        opacity: 0;
+    }
+}
+
+#second:hover{
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(4px);
+    }
+    .ProjectCardButton{
+        margin-top: 3vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/ZeroRobotics.png");
+}
+
+#third{
+    background-image: url("../../images/LogoFermi.png");
+    .ProjectCardButton{
+        margin-top: 0vh !important;
+        opacity: 0;
+    }
+}
+
+#third:hover{
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(6px);
+    }
+    .ProjectCardButton{
+        margin-top: 1vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/LogoFermi.png");
+}
+
+   
