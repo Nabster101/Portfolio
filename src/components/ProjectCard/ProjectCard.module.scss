@@ -1,0 +1,49 @@
+@import "../../styles/style.scss";
+
+
+.ProjectCard{
+    cursor: default;
+    height: 30vh;
+    width: 40vh;
+    border-radius: 30px;
+    transition: 0.2s; 
+    background-color: #0A2463;
+    margin: 0 auto;
+    box-shadow: 5px 4px 12px rgba(0, 0, 0, 1);
+}
+
+
+.Title{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2vh auto;
+    transition: 0.3s;
+    opacity: 0;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.Description{
+    color: white;
+    width: 75%;
+    font-weight: 400;
+    text-align: center;
+    margin: 1vh auto;
+    font-size: 18px;
+    transition: 0.3s;
+    opacity: 0;
+    text-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.TextContainer{
+    border-radius: 30px;
+}
+
+.Button{
+    margin-top: 3vh;
+    padding: 3px 45px 3px 45px;
+    opacity: 0;
+    font-weight: 600;
+    transition: 0.3s;
+}
