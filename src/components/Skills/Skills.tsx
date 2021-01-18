@@ -41,7 +41,6 @@ const Skills = () => {
                             title="Front end"
                             className={SkillsStyle.SkillCard}
                             aos="fade-right"
-                            duration="2000"
                         />
                         <SkillCard
                             skills={[
@@ -53,7 +52,6 @@ const Skills = () => {
                             title="Graphic Design"
                             className={SkillsStyle.SkillCard}
                             aos="flip-up"
-                            duration="2000"
                         />
                         <SkillCard
                             skills={[
@@ -66,7 +64,6 @@ const Skills = () => {
                             title="Back end"
                             className={SkillsStyle.SkillCard}
                             aos="fade-left"
-                            duration="2000"
                         />
                     </Col>
                 </Row>

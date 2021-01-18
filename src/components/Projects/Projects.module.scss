@@ -9,7 +9,6 @@
     justify-content: center;
 }
 
-
 .TitleContainer{
     margin-bottom: 10vh;
 }
@@ -30,6 +29,27 @@
     margin-left: 4vh;
     margin-right: 4vh;
 }
+
+#secondcontainer{
+    margin-top: 10vh;
+}
+
+.ShowMore{
+    transition: 0.3s;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #0A2463;
+    margin-top: 5vh;
+    display: flex;
+}
+
+.ShowMoreRemove{
+    transition: 0.3s;
+    display: none;
+}
+
 
 ///////////////////////////////////
 
@@ -96,7 +116,7 @@
 #third{
     background-image: url("../../images/LogoFermi.png");
     .ProjectCardButton{
-        margin-top: 0vh !important;
+        margin-top: -5vh !important;
         opacity: 0;
     }
 }
@@ -120,4 +140,86 @@
     url("../../images/LogoFermi.png");
 }
 
-   
+
+#fourth{
+    background-image: url("../../images/PulseeHackathon.png");
+    .ProjectCardButton{
+        margin-top: -5vh !important;
+    }
+}
+
+#fourth:hover{
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(6px);
+    }
+    .ProjectCardButton{
+        margin-top: 3vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/PulseeHackathon.png");
+}
+
+
+#fifth{
+    margin-right: 8vh;
+    margin-left: 8vh;
+    background-image: url("../../images/RunHack.png");
+    .ProjectCardButton{
+        margin-top: -5vh !important;
+    }
+}
+
+#fifth:hover{
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(6px);
+    }
+    .ProjectCardButton{
+        margin-top: 3vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/RunHack.png");
+}
+
+
+
+#sixth{
+    background-image: url("../../images/GitHub.png");
+    .ProjectCardButton{
+        margin-top: -5vh !important;
+    }
+}
+
+#sixth:hover{
+    .ProjectCardTitle{
+        opacity: 1;
+        height: 100%;
+    }
+    .ProjectCardTextContainer{
+        backdrop-filter: blur(10px);
+    }
+    .ProjectCardButton{
+        margin-top: 3vh !important;
+        opacity: 1;
+    }
+    .ProjectCardDescription{
+        opacity: 1;
+    }
+    background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/GitHub.png");
+}
