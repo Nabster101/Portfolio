@@ -14,7 +14,7 @@ setTimeout(() => {
 const Presentation = () => {
     return(
         <section className={PresentationStyle.Presentation}>
-            <Container data-aos="zoom-in" data-aos-duration="2000" className={PresentationStyle.ComponentTitleContainer}>
+            <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={PresentationStyle.ComponentTitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">
                         <div className={PresentationStyle.Seperators}></div>
@@ -26,7 +26,7 @@ const Presentation = () => {
             <Container fluid>
                 <Row className="justify-content-center">
                     <Col md="auto">
-                        <div data-aos="fade-right" data-aos-duration="1000" className={PresentationStyle.ObjectivesContainer}>
+                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.ObjectivesContainer}>
                             <div className={PresentationStyle.Title}>🚀 MY OBJECTIVES 🚀</div>
                             <div className={PresentationStyle.Description}>
                                 <ul>
@@ -45,7 +45,7 @@ const Presentation = () => {
                                 </ul> 
                             </div>
                         </div>
-                        <div data-aos="fade-left" data-aos-duration="1000"  className={PresentationStyle.WIP}>
+                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.WIP}>
                             <div className={PresentationStyle.Title}>📚 What I’m learning 📚</div>
                             <div className={PresentationStyle.Description}>
                                 <ul>
