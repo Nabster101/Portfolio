@@ -16,7 +16,7 @@ setTimeout(() => {
 const Skills = () => {
     return(
         <section className={SkillsStyle.Skills}>
-            <Container data-aos="zoom-in" data-aos-duration="2000" className={SkillsStyle.TitleContainer}>
+            <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={SkillsStyle.TitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">
                         <div className={SkillsStyle.Seperators}></div>
@@ -41,7 +41,6 @@ const Skills = () => {
                             title="Front end"
                             className={SkillsStyle.SkillCard}
                             aos="fade-right"
-                            duration="2000"
                         />
                         <SkillCard
                             skills={[
@@ -53,7 +52,6 @@ const Skills = () => {
                             title="Graphic Design"
                             className={SkillsStyle.SkillCard}
                             aos="flip-up"
-                            duration="2000"
                         />
                         <SkillCard
                             skills={[
@@ -66,7 +64,6 @@ const Skills = () => {
                             title="Back end"
                             className={SkillsStyle.SkillCard}
                             aos="fade-left"
-                            duration="2000"
                         />
                     </Col>
                 </Row>

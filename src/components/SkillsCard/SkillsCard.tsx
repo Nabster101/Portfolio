@@ -14,7 +14,7 @@ setTimeout(() => {
 
 const SkillsCard = ({ skills, title, className, id, aos}) => {        
     return(
-        <div id={id} data-aos={aos} data-aos-duration="1000" className={`${SkillCardStyle.SkillCard} ${className}`}>
+        <div id={id} data-aos={aos} data-aos-duration="1000" data-aos-once="true" className={`${SkillCardStyle.SkillCard} ${className}`}>
             <div className={SkillCardStyle.Title}>{title}</div> 
             <div className={SkillCardStyle.SkillsContainer}>
                 {skills
