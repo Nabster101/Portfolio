@@ -1,0 +1,77 @@
+@import "../../styles/style.scss";
+
+.Resume{
+    margin-bottom: 30vh;
+    cursor: default;
+}
+
+.TitleContainer{
+    margin-bottom: 10vh;
+}
+
+.Seperators{
+    background-color: #0A2463;
+    height: 0.5vh;
+    width: 15vh;
+    margin-top: 0.3vh;
+    display: inline-flex;
+    vertical-align: text-top;
+}
+
+.ComponentTitle{
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+////////////////////
+
+.ResumeContainer{
+    background-color: #0A2463;
+    border-radius: 30px;
+    height: 300px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.TextTitle{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    color: white;
+    padding-top: 4vh;
+    text-align: center;
+}
+
+.TextDescription{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 4vh;
+    margin-right: 4vh;
+    color: white;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+.FlagContainer{
+    text-align: center;
+    padding-top: 2vh;
+}
+
+.Flag{
+    height: 75px;
+    width: 75px;
+    color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url("../../images/EnglishFlag2.png") center no-repeat;
+    
+}
+
+.Flag:hover{
+    box-shadow: inset 4px 4px 15px 0px #000000;
+}
