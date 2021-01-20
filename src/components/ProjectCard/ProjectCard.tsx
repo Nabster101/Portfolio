@@ -13,7 +13,7 @@ setTimeout(() => {
 
 const ProjectCard = ({ id, title, className, className2, description, className3, className4, className5, aos }) => {
     return(
-        <div id={id} data-aos={aos} data-aos-duration="1000" className={`${ProjectCardStyle.ProjectCard} ${className}`}>
+        <div id={id} data-aos={aos} data-aos-duration="1000" data-aos-once="true" className={`${ProjectCardStyle.ProjectCard} ${className}`}>
             <div className={`${ProjectCardStyle.TextContainer} ${className4}`}>
                 <div className={`${ProjectCardStyle.Title} ${className2}`}>{title}
                     <div className={ProjectCardStyle.DescriptionContainer}>

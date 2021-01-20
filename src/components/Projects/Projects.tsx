@@ -24,7 +24,7 @@ const Projects = () => {
 
     return(
         <section className={ProjectsStyle.Projects}>
-            <Container data-aos="zoom-in" data-aos-duration="2000" className={ProjectsStyle.TitleContainer}>
+            <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={ProjectsStyle.TitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">
                         <div className={ProjectsStyle.Seperators}></div>
