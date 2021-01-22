@@ -15,7 +15,7 @@ const Footer = () => {
                         <div className={FooterStyle.TextBox}>
                             <Link className={FooterStyle.SectionsLink} to="Home" spy={true} smooth={true} duration={300} offset={-200}>Home</Link>
                             <Link className={FooterStyle.SectionsLink} to="Skills" spy={true} smooth={true} duration={300} offset={-200}>Skills</Link>
-                            <img className={FooterStyle.FooterImage} src={require("../../images/ProfileIcon.svg")}/>
+                            <img className={FooterStyle.FooterImage} src={require("../../images/Navbar-Icon.png")}/>
                             <Link className={FooterStyle.SectionsLink} to="Info" spy={true} smooth={true} duration={300} offset={-200}>Info</Link>
                             <Link className={FooterStyle.SectionsLink} to="Projects" spy={true} smooth={true} duration={300} offset={-200}>Projects</Link>
                         </div>
