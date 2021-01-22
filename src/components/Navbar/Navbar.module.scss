@@ -1,9 +1,11 @@
 @import "../../styles/style.scss";
 
 .Navbar {
-    background-color:#473144;
+    background-color:#0A2463;
+    height: 110px;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .Title{

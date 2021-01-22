@@ -6,20 +6,28 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 
-import AOS from "aos"
-import "aos/dist/aos.css"
+interface Props{
+    id: String
+}
 
-AOS.init()
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
-const TextAndPhoto = () => {
+setTimeout(() => {
+    AOS.init({
+        duration: 1000
+    })
+}, 1000) 
+
+const TextAndPhoto = (props:Props) => {
     return(
-        <section className={TextAndPhotoStyle.TextAndPhoto}>
+        <section id={props.id} className={TextAndPhotoStyle.TextAndPhoto}>
             <Container className={TextAndPhotoStyle.Container}>
                 <div className={TextAndPhotoStyle.ProfilePicContainer}>
                     <img className={TextAndPhotoStyle.ProfilePic} src={ProfilePic} alt=""/>
                 </div>
                 <div className={TextAndPhotoStyle.TypeWriterName}>
-                    <h1 className={TextAndPhotoStyle.TypeWriterNameText} >Hello my name is Pietro!</h1>
+                    <h1 className={TextAndPhotoStyle.TypeWriterNameText}>Hello my name is Pietro!</h1>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="1600" data-aos-once="false" className={TextAndPhotoStyle.DescriptionContainer}>
                     <span className={TextAndPhotoStyle.Description}>I'm Pietro Costanzi Fantini, a Frontend developer and Graphics designer. I'm a young, dynamic and resourceful teen open to any kind of life/working experience and eager to prove his worth!</span>

@@ -3,8 +3,8 @@
 
 .TextAndPhoto{
     background-color: #0A2463;
-    height: 86.1vh;
-    padding-top: 1vh;
+    height: 88.4vh;
+    padding-top: 4vh;
 }
 
 .Container{
@@ -37,7 +37,7 @@
     font-size: 40px;
     font-family: 'Archivo Black', sans-serif;
     animation: 
-      typing 2s steps(40, end),
+      typing 1.75s steps(40, end),
       blink-caret .75s step-end infinite;
 
     @keyframes typing {
