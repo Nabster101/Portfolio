@@ -3,6 +3,7 @@
 .Skills{
     height: 120vh;
     margin-top: 20vh;
+    cursor: default;
 }
 
 .TitleContainer{
@@ -28,6 +29,7 @@
 /////////////////////////////////////////////////////
 .SkillCard{
     display: inline-grid;
+    background-color: #0A2463;
 }
 
 .bg{
