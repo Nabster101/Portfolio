@@ -11,9 +11,13 @@ setTimeout(() => {
     })
 }, 1000) 
 
-const Presentation = () => {
+interface Props{
+    id: String
+}
+
+const Presentation = (props:Props) => {
     return(
-        <section className={PresentationStyle.Presentation}>
+        <section id={props.id} className={PresentationStyle.Presentation}>
             <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={PresentationStyle.ComponentTitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">
