@@ -4,6 +4,10 @@ import ProfilePic from "../../images/ProfilePic.png"
 import { Container } from "react-bootstrap"
 import Icon from "../../images/Navbar-Icon.png"
 
+interface Props{
+    id: String
+}
+
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -13,9 +17,9 @@ setTimeout(() => {
     })
 }, 1000) 
 
-const TextAndPhoto = () => {
+const TextAndPhoto = (props:Props) => {
     return(
-        <section className={TextAndPhotoStyle.TextAndPhoto}>
+        <section id={props.id} className={TextAndPhotoStyle.TextAndPhoto}>
             <Container className={TextAndPhotoStyle.Container}>
                 <div className={TextAndPhotoStyle.ProfilePicContainer}>
                     <img className={TextAndPhotoStyle.ProfilePic} src={ProfilePic} alt=""/>

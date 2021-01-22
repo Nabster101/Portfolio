@@ -15,7 +15,7 @@ setTimeout(() => {
 
 const Skills = () => {
     return(
-        <section className={SkillsStyle.Skills}>
+        <section id="Skills" className={SkillsStyle.Skills}>
             <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={SkillsStyle.TitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">

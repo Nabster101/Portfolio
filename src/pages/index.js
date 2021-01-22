@@ -6,16 +6,21 @@ import Skills from "../components/Skills/Skills"
 import Presentation from "../components/Presentation/Presentation"
 import Projects from "../components/Projects/Projects"
 import Resume from "../components/Resume/Resume"
+import Footer from "../components/Footer/Footer"
 
 export default function Home() {
   return (
-    <div>
-      <Navbar/>
-      <TextAndPhoto/>
-      <Skills/>
-      <Presentation/>
-      <Projects/>
-      <Resume/>
-    </div>
+    <React.Fragment>
+      <div>
+          <Navbar/>
+          <TextAndPhoto id="Home"/>
+          <Skills id="Skills"/>
+          <Presentation id="Info"/>
+          <Projects id="Projects"/>
+          <Resume/>
+          <Footer/>
+      </div>
+    </React.Fragment>
+    
   )
 }

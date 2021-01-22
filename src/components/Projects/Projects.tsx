@@ -12,9 +12,12 @@ setTimeout(() => {
     })
 }, 1000) 
 
+interface Props{
+    id: String
+}
 
 
-const Projects = () => {    
+const Projects = (props:Props) => {    
 
     const [open, setOpen] = useState(false);
     const [isActive, setActive] = useState(false);
@@ -23,7 +26,7 @@ const Projects = () => {
     }
 
     return(
-        <section className={ProjectsStyle.Projects}>
+        <section id={props.id} className={ProjectsStyle.Projects}>
             <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={ProjectsStyle.TitleContainer}>
                 <Row className="justify-content-center">
                     <Col md="auto">
