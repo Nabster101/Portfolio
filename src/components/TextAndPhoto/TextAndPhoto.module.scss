@@ -64,10 +64,32 @@
 
 .IconContainer{
     padding-top: 2vh;
-    .Icon{
-        height: 100px;
+    #Icon{
+        width: 70px !important;
+        height: 70px !important;
+        color: white;
+        border: 3px solid white;
+        padding: 10px 10px 10px 10px;
+        border-radius: 50%;
+        transition: 0.2s;
+        animation: updown 2s ease infinite;
+        @keyframes updown {
+            0% {
+              transform: translateY(-10%);
+            }
+          
+            50% {
+              transform: translateY(10%);
+            }
+          
+            100% {
+              transform: translateY(-10%);
+            }
+          }
     }
 }
 
-
-
+#Icon:hover{
+    color: black;
+    background-color: white;
+}
