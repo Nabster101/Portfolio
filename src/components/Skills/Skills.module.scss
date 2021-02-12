@@ -1,0 +1,64 @@
+@import "../../styles/style.scss";
+
+.Skills{
+    height: 70vh;
+    margin-bottom: 20vh;
+    margin-top: 20vh;
+    cursor: default;
+}
+
+.TitleContainer{
+    margin-bottom: 10vh;
+}
+
+.Seperators{
+    background-color: #0A2463;
+    height: 0.5vh;
+    width: 15vh;
+    margin-top: 0.3vh;
+    display: inline-flex;
+    vertical-align: text-top;
+}
+
+.Title{
+    font-size: 40px;
+    font-weight: 600;
+    display: inline;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+/////////////////////////////////////////////////////
+.SkillCard{
+    display: inline-grid;
+    background-color: #0A2463;
+}
+
+.bg{
+    border-radius: 30px;
+}
+
+#first{
+    background-image: url("../../images/FrontendCardBlue.png");
+}
+
+#first:hover{
+    background-image: url("../../images/FrontendCard.png");
+}
+
+#second{
+    margin-right: 8vh;
+    margin-left: 8vh;
+    background-image: url("../../images/FrontendCardBlue.png");
+}
+
+#second:hover{
+    background-image: url("../../images/GraphicDesignCard.png");
+}
+
+#third{
+    background-image: url("../../images/FrontendCardBlue.png");
+}
+
+#third:hover{
+    background-image: url("../../images/BackendCard.png");
+}
