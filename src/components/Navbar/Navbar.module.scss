@@ -18,16 +18,61 @@
     font-weight: 600;
     vertical-align: super;
 }
-
+/*
 .ButtonText{
     font-weight: 600;
     margin-bottom: 2.5vh;
     margin-right: 3vh;
+}*/
+
+@media screen and (width: 320px) and (height: 568px){
+    .NavbarLink{
+        margin: 0 auto;
+    }
+    .Navbar{
+        height: 150px;
+    }
+    .LogoPic{
+        width: 65px;
+        height: 50px;
+        display: flex;
+        margin: -1vh auto 1vh;
+    }
+    .Title{
+        font-size: 15px;
+    }
+    .ButtonText{
+        font-weight: 600;
+        width: 145px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    .NavItem{
+        margin: -1vh auto;
+    }
 }
 
-.ButtonTextActive{
-    background-color: #0A2463;
-    font-weight: 600;
-    margin-bottom: 2.5vh;
-    margin-right: 3vh;
+@media screen and (min-width: 330px){
+    .NavbarLink{
+        margin-left: -4vh;
+    }
+    .Navbar{
+        height: 90px;
+    }
+    .Title{
+        font-size: 16px;
+        margin-left: -5px;
+    }
+    .LogoPic{
+        width: 80px;
+        height: 60px;
+    }
+    .ButtonText{
+        font-weight: 600;
+        width: 70px;
+        font-size: 13px;
+        margin-bottom: 3.2vh;
+        padding: 5px;
+        margin-right: -20px;
+    }
 }
