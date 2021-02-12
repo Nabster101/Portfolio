@@ -6,16 +6,16 @@ import NavbarLogo from "../../images/Navbar-Icon.png"
 const Navbar = () => {
     return(
         <section className={NavbarStyle.Navbar}>
-            <Container>
-                <NavBar variant="dark" expand="lg">
-                    <NavBar.Brand href="/">
+            <Container className={NavbarStyle.NavContainer}>
+                <NavBar collapseOnSelect variant="dark" expand="lg">
+                    <NavBar.Brand href="/" className={NavbarStyle.NavbarLink}>
                         <img src={NavbarLogo} 
                             width="100" 
                             height="75" 
-                            className="d-inline-block mb-4 align-middle"
+                            className= {`${NavbarStyle.LogoPic} ${"align-middle"}`}
                         /> <span className={NavbarStyle.Title}>Pietro Costanzi Fantini</span>                        
                     </NavBar.Brand>
-                    <Nav className="ml-auto">
+                    <Nav className={`${NavbarStyle.NavItem} ${"ml-auto"}`}>
                         <Nav.Item>
                             <Button className={NavbarStyle.ButtonText} href="/contacts">Let's get in touch!</Button>
                         </Nav.Item>
