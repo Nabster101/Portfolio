@@ -36,7 +36,7 @@ html {
     padding-top: 4vh;
     display: inline;
     transition: 0.5s;
-    cursor: pointer;
+   cursor: pointer;
 }
 
 .SectionsLink:hover{
@@ -52,9 +52,6 @@ html {
     text-shadow: 1px 1px #02a2fe, 2px 2px #02a2fe, 3px 3px #02a2fe, 4px 4px #02a2fe, 5px 5px #02a2fe, 6px 6px #02a2fe;
 }
 
-.SocialButtons{
-    border: 3px yellow solid;
-}
 
 .SocialIconContainer{
     height: 50px;
@@ -77,7 +74,7 @@ html {
 
 .SocialIcon:hover{
     transition: 0.2s;
-    color: black;
+    color: #0A2463;
     background-color: white;
 }
 

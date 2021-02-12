@@ -31,7 +31,7 @@ const Presentation = (props:Props) => {
                 <Row className="justify-content-center">
                     <Col md="auto">
                         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.ObjectivesContainer}>
-                            <div className={PresentationStyle.Title}>🚀 MY OBJECTIVES 🚀</div>
+                            <div className={PresentationStyle.Title}>🚀 My objectives 🚀</div>
                             <div className={PresentationStyle.Description}>
                                 <ul>
                                     <li>

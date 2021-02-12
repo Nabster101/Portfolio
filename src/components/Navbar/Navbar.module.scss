@@ -6,6 +6,10 @@
     position: sticky;
     top: 0;
     z-index: 1000;
+} 
+
+.ActiveNavbar{
+    background: #0275d8;
 }
 
 .Title{
@@ -16,6 +20,13 @@
 }
 
 .ButtonText{
+    font-weight: 600;
+    margin-bottom: 2.5vh;
+    margin-right: 3vh;
+}
+
+.ButtonTextActive{
+    background-color: #0A2463;
     font-weight: 600;
     margin-bottom: 2.5vh;
     margin-right: 3vh;

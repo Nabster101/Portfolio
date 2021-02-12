@@ -26,7 +26,7 @@ const Resume = () =>{
             <Container>
                 <Row>
                     <Col>
-                        <div data-aos="fade-up-left" data-aos-duration="2000" data-aos-once="true" className={ResumeStyle.ResumeContainer}>
+                        <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className={ResumeStyle.ResumeContainer}>
                             <div className={ResumeStyle.TextContainer}>
                                 <div className={ResumeStyle.TextTitle}>Get my resume now!</div>
                                 <div className={ResumeStyle.FlagContainer}>

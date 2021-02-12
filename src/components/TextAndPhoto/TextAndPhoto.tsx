@@ -29,11 +29,11 @@ const TextAndPhoto = (props:Props) => {
                 <div className={TextAndPhotoStyle.TypeWriterName}>
                     <h1 className={TextAndPhotoStyle.TypeWriterNameText}>Hello my name is Pietro!</h1>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="1600" data-aos-once="false" className={TextAndPhotoStyle.DescriptionContainer}>
+                <div data-aos="zoom-in" data-aos-delay="1600" data-aos-once="true" className={TextAndPhotoStyle.DescriptionContainer}>
                     <span className={TextAndPhotoStyle.Description}>I'm Pietro Costanzi Fantini, a Frontend developer and Graphics designer. I'm a young, dynamic and resourceful teen open to any kind of life/working experience and eager to prove his worth!</span>
                 </div>
-                <div data-aos="zoom-in" data-aos-delay="1600" data-aos-once="false" className={TextAndPhotoStyle.IconContainer}>
-                    <Link to="Skills" spy={true} smooth={true} duration={300} offset={-200}>
+                <div data-aos="zoom-in" data-aos-delay="1600" data-aos-once="true" className={TextAndPhotoStyle.IconContainer}>
+                    <Link activeClass={TextAndPhotoStyle.TEST} to="Skills" spy={true} smooth={true} duration={100} offset={-200}>
                         <FontAwesomeIcon id={TextAndPhotoStyle.Icon} icon={faArrowDown}/>
                     </Link>
                 </div>
