@@ -61,17 +61,31 @@
     padding-top: 2vh;
 }
 
-.Flag{
+.FlagENG{
+    height: 75px;
+    width: 75px;
+    color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 4vh 0vh 0vh;
+    background: url("../../images/EnglishFlag2.png") center no-repeat; 
+}
+
+.FlagENG:hover{
+    box-shadow: inset 4px 4px 15px 0px #000000;
+}
+
+
+.FlagITA{
     height: 75px;
     width: 75px;
     color: transparent;
     border: 2px solid white;
     border-radius: 50%;
     margin: 0 auto;
-    background: url("../../images/EnglishFlag2.png") center no-repeat;
-    
+    background: url("../../images/ItalianFlag.png") center no-repeat; 
 }
 
-.Flag:hover{
+.FlagITA:hover{
     box-shadow: inset 4px 4px 15px 0px #000000;
 }
