@@ -1,13 +1,25 @@
+import { library } from '@fortawesome/fontawesome-svg-core'
+
 import {
-    faGithubAlt,
-    faGoogle,
+    faGithub,
+    faLinkedin,
     faFacebook,
-    faTwitter
+    faTwitter,
+    faInstagram,
   } from '@fortawesome/free-brands-svg-icons';
 
-  library.add(
-    faGithubAlt,
-    faGoogle,
-    faFacebook,
-    faTwitter
-  );
+import {
+    faEnvelope
+} from '@fortawesome/free-solid-svg-icons'
+  
+
+library.add(
+  faGithub,
+  faLinkedin,
+  faFacebook,
+  faTwitter,
+  faInstagram,
+  faEnvelope
+);
+
+  

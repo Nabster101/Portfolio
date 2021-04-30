@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import FooterStyle from "./Footer.module.scss"
 import { Link } from "react-scroll";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faGithub, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import '../../utils/fontawesome';
 
 const Footer = () => {
     return(
@@ -25,22 +24,22 @@ const Footer = () => {
                     <Col>
                         <div className={FooterStyle.SocialIconContainer}>
                             <a className={FooterStyle.SocialIconButtons} href="https://www.instagram.com/pietro.costanzi/">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faInstagram} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fab', 'instagram']} />
                             </a>
                             <a className={FooterStyle.SocialIconButtons} href="https://www.facebook.com/pietro.costanzi.10/">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faFacebook} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fab', 'facebook']} />
                             </a> 
                             <a className={FooterStyle.SocialIconButtons} href="https://www.linkedin.com/in/pietro-costanzi-fantini/">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faLinkedinIn} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fab', 'linkedin']} />
                             </a> 
                             <a className={FooterStyle.SocialIconButtons} href="https://twitter.com/TheRealNabster_">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faTwitter} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fab', 'twitter']} />
                             </a> 
                             <a className={FooterStyle.SocialIconButtons} href="https://github.com/Nabster101">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faGithub} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fab', 'github']} />
                             </a>      
                             <a className={FooterStyle.SocialIconButtons} href="mailto:pietrocostanzi39@gmail.com">
-                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={faEnvelope} />
+                                <FontAwesomeIcon className={FooterStyle.SocialIcon} icon={['fas', 'envelope']} />
                             </a>                           
                         </div>
                     </Col>
