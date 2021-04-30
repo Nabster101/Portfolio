@@ -75,7 +75,7 @@ const Projects = (props:Props) => {
                     </Col>
                 </Row>
             </Container>
-            <Button onClick={() => {setOpen(!open);toggleBox();}} className={`${ProjectsStyle} ${isActive ? "Projects-module--ShowMoreRemove--28Oq5" : "Projects-module--ShowMore--25n3l" }`} aria-controls="SecondContainer" aria-expanded={open}>▼ Show more ▼</Button>
+            <Button onClick={() => {setOpen(!open);toggleBox();}} className={`${isActive ? "Projects-module--ShowMoreRemove--28Oq5" : "Projects-module--ShowMore--25n3l" }`} aria-controls="SecondContainer" aria-expanded={open}>▼ Show more ▼</Button>
             <Collapse in={open}>
                 <Container id={ProjectsStyle.secondcontainer} fluid className={ProjectsStyle.ProjectsContainer}>
                     <Row className="justify-content-between">
@@ -117,7 +117,7 @@ const Projects = (props:Props) => {
                     </Row>
                 </Container>  
             </Collapse>
-            <Button onClick={() => {setOpen(!open);toggleBox();}} className={`${ProjectsStyle} ${isActive ? "Projects-module--ShowMore--25n3l" : "Projects-module--ShowMoreRemove--28Oq5" }`} aria-controls="SecondContainer" aria-expanded={open}>▲ Show less ▲</Button>
+            <Button onClick={() => {setOpen(!open);toggleBox();}} className={`${isActive ? "Projects-module--ShowMore--25n3l" : "Projects-module--ShowMoreRemove--28Oq5" }`} aria-controls="SecondContainer" aria-expanded={open}>▲ Show less ▲</Button>
         </section>
     )
 }
