@@ -1,9 +1,11 @@
 import React from "react"
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap"
 import ResumeStyle from "./Resume.module.scss"
+import ENGResume from "../../utils/Pietro_Costanzi_Fantini_Resume_ENG.pdf"
+import ITAResume from "../../utils/Pietro_Costanzi_Fantini_Resume_ITA.pdf"
 
 import AOS from "aos"
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css'
 
 setTimeout(() => {
     AOS.init({
@@ -30,7 +32,8 @@ const Resume = () =>{
                             <div className={ResumeStyle.TextContainer}>
                                 <div className={ResumeStyle.TextTitle}>Get my resume now!</div>
                                 <div className={ResumeStyle.FlagContainer}>
-                                    <Button className={ResumeStyle.Flag}/>
+                                    <Button href={ENGResume} download className={ResumeStyle.FlagENG}/>
+                                    <Button href={ITAResume} download className={ResumeStyle.FlagITA}/>
                                 </div>
                                 <div className={ResumeStyle.TextDescription}>Press on the flag to get my resume in that language!</div>
                             </div>
