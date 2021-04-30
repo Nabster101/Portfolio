@@ -72,3 +72,33 @@
         margin-right: -20px;
     }
 }
+
+
+@media screen and (min-width: 1440px){
+    .LogoPic{
+        width: 95px;
+        height: 75px;
+    }
+    
+    .Navbar {
+        background-color:#0A2463;
+        height: 110px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .Title{
+        margin-bottom: 10vh;
+        font-size: 22px;
+        font-weight: 600;
+        vertical-align: super;
+    }
+    .ButtonText{
+        font-weight: 600;
+        margin-bottom: 2.5vh;
+        margin-right: 3vh;
+        width: 95px;
+        font-size: 16px;
+    }
+}
