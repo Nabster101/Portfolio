@@ -9,22 +9,24 @@
 }
 
 .Title{
+    font-size: 22px;
+    font-weight: 600;
+    position: absolute;
+}
+
+.TitlePhone{
     margin-bottom: 10vh;
     font-size: 22px;
     font-weight: 600;
-    vertical-align: super;
+    position: absolute;
 }
-/*
+
 .ButtonText{
     font-weight: 600;
-    margin-bottom: 2.5vh;
-    margin-right: 3vh;
-}*/
+    padding: 5px;
+}
 
-@media screen and (width: 320px) and (height: 568px){
-    .NavbarLink{
-        margin: 0 auto;
-    }
+@media screen and (min-width: 0px){
     .Navbar{
         height: 150px;
     }
@@ -38,67 +40,69 @@
         font-size: 15px;
     }
     .ButtonText{
-        font-weight: 600;
-        width: 145px;
-        padding: 5px;
-        font-size: 13px;
-    }
-    .NavItem{
-        margin: -1vh auto;
+        width: 146px;
+        font-size: 14px;
+        margin-bottom: 1.5vh;
     }
 }
 
-@media screen and (min-width: 330px){
+
+@media screen and (min-width: 320px){
+    .Navbar{
+        height: 85px;
+    }
+    .LogoPic{
+        width: 85px;
+        height: 65px;
+        margin-right: 5vh;
+    }
     .NavbarLink{
-        margin-left: -4vh;
+        margin-left: -5vh;
+    }
+    .Title{
+        display: none;
+    }
+    .TitlePhone{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .NavbarLink{
+        margin-left: -3vh;
+        margin-right: 7vh;
+    }
+    .TitlePhone{
+        display: block;
+        top: 25px;
+        left: 80px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .LogoPic{
+        width: 90px;
+        height: 65px;
     }
     .Navbar{
-        height: 90px;
+        padding-top: 5px;
+        height: 95px;
+    }
+    .NavbarLink{
+        margin-left: -5vh;
     }
     .Title{
-        font-size: 16px;
-        margin-left: -5px;
-    }
-    .LogoPic{
-        width: 80px;
-        height: 60px;
-    }
-    .ButtonText{
-        font-weight: 600;
-        width: 70px;
-        font-size: 13px;
-        margin-bottom: 3.2vh;
-        padding: 5px;
-        margin-right: -20px;
-    }
-}
-
-
-@media screen and (min-width: 1440px){
-    .LogoPic{
-        width: 95px;
-        height: 75px;
-    }
-    
-    .Navbar {
-        background-color:#0A2463;
-        height: 110px;
-        position: sticky;
-        top: 0;
-        z-index: 1000;
-    }
-
-    .Title{
-        margin-bottom: 10vh;
+        display: block;
         font-size: 22px;
-        font-weight: 600;
-        vertical-align: super;
+        top: 25px;
+        left: 65px;
+    }
+    .TitlePhone{
+        display: none;
     }
     .ButtonText{
-        font-weight: 600;
-        margin-bottom: 2.5vh;
-        margin-right: 3vh;
-        width: 95px;
-        font-size: 16px;
+        width: 175px;
+        font-size: 18px;
+        margin-bottom: 1.2vh;
     }
 }
