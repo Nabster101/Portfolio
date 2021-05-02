@@ -13,7 +13,7 @@ const Navbar = () => {
                             width="100" 
                             height="75" 
                             className= {`${NavbarStyle.LogoPic} ${"align-middle"}`}
-                        /> <span className={NavbarStyle.Title}>Pietro Costanzi Fantini</span>                        
+                        /> <span className={NavbarStyle.Title}>Pietro Costanzi Fantini</span> <span className={NavbarStyle.TitlePhone}>PCF</span>                        
                     </NavBar.Brand>
                     <Nav className={`${NavbarStyle.NavItem} ${"ml-auto"}`}>
                         <Nav.Item>
