@@ -3,7 +3,7 @@
 
 .TextAndPhoto{
     background-color: #0A2463;
-    height: 88.4vh;
+    height: 90vh;
     padding-top: 4vh;
     cursor: default;
 }
@@ -52,7 +52,6 @@
     }
 }
 
-
 .DescriptionContainer{
     margin: 30px auto;
     width: 975px;
@@ -93,4 +92,140 @@
 #Icon:hover{
     color: #0A2463;
     background-color: white;
+}
+
+@media screen and (min-width: 0px) {
+    .ProfilePicContainer{
+        .ProfilePic{
+            height: 225px;
+        }
+    }
+    .TypeWriterName{
+        width: 225px;
+    }
+    .TypeWriterName .TypeWriterNameText{
+        overflow: unset;
+        white-space: normal;
+        font-size: 32px;
+    }
+    .TextAndPhoto{
+        height: 140vh;
+    } 
+    .DescriptionContainer{
+        width: 275px;
+        .Description{
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .TextAndPhoto{
+        height: 110vh;
+    } 
+    .TypeWriterName{
+        width: 320px;
+    }
+    .DescriptionContainer{
+        width: 295px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .TextAndPhoto{
+        height: 100vh;
+    } 
+}
+
+@media screen and (min-width: 500px) {
+    .TextAndPhoto{
+        height: 90vh;
+    } 
+}
+
+@media screen and (min-width: 768px) {
+    .ProfilePicContainer{
+        .ProfilePic{
+            height: 425px;
+        }
+    }
+    .TypeWriterName{
+        width: 540px;
+    }
+    .TypeWriterName .TypeWriterNameText{
+        font-size: 35px;
+    }
+    .TextAndPhoto{
+        height: 92vh;
+    } 
+    .DescriptionContainer{
+        width: 460px;
+        .Description{
+            font-size: 22px;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .ProfilePicContainer{
+        .ProfilePic{
+            height: 325px;
+        }
+    }
+    .TextAndPhoto{
+        height: 91vh;
+    } 
+    .DescriptionContainer{
+        width: 495px;
+        .Description{
+            font-size: 20px;
+        }
+    }
+    .TypeWriterName .TypeWriterNameText{
+        overflow: hidden;
+        white-space: nowrap;
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .ProfilePicContainer{
+        .ProfilePic{
+            height: 630px;
+        }
+    }
+    .TextAndPhoto{
+        height: 92vh;
+    } 
+    .TypeWriterName{
+        width: 625px;
+    }
+    .TypeWriterName .TypeWriterNameText{
+        font-size: 40px;
+    }
+    .DescriptionContainer{
+        width: 495px;
+        .Description{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .ProfilePicContainer{
+        .ProfilePic{
+            height: 390px;
+        }
+    }
+    .TypeWriterName{
+        width: 625px;
+    }
+    .TextAndPhoto{
+        height: 91vh;
+    } 
+    .DescriptionContainer{
+        width: 495px;
+        .Description{
+            font-size: 20px;
+        }
+    }
 }

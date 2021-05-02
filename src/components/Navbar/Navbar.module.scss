@@ -110,3 +110,41 @@
         margin-bottom: 1.2vh;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .ButtonText{
+        font-size: 25px;
+        margin-bottom: 1vh;
+        width: 240px;
+    }
+    .Title{
+        font-size: 30px;
+    }
+    .Navbar{
+        height: 115px;
+    }
+    .LogoPic{
+        width: 115px;
+        height: 85px;
+    }
+}
+
+
+@media screen and (min-width: 1025px){
+    .ButtonText{
+        font-size: 25px;
+        margin-bottom: 1vh;
+        width: 240px;
+    }
+    .Title{
+        font-size: 30px;
+        left: 90px;
+    }
+    .Navbar{
+        height: 115px;
+    }
+    .LogoPic{
+        width: 115px;
+        height: 85px;
+    }
+}
