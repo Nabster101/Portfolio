@@ -20,16 +20,16 @@ const Presentation = (props:Props) => {
         <section id={props.id} className={PresentationStyle.Presentation}>
             <Container data-aos="zoom-in" data-aos-duration="2000" data-aos-once="true" className={PresentationStyle.ComponentTitleContainer}>
                 <Row className="justify-content-center">
-                    <Col md="auto">
+                    <Col>
                         <div className={PresentationStyle.Seperators}></div>
                         <div className={PresentationStyle.ComponentTitle}>Info</div>
                         <div className={PresentationStyle.Seperators}></div>
                     </Col>
                 </Row>
             </Container>
-            <Container fluid>
+            <Container fluid className={PresentationStyle.CardContainer} >
                 <Row className="justify-content-center">
-                    <Col md="auto">
+                    <Col md={6} lg="auto" xl="auto">
                         <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.ObjectivesContainer}>
                             <div className={PresentationStyle.Title}>🚀 My objectives 🚀</div>
                             <div className={PresentationStyle.Description}>
@@ -49,6 +49,8 @@ const Presentation = (props:Props) => {
                                 </ul> 
                             </div>
                         </div>
+                    </Col>
+                    <Col md={6} lg="auto" xl="auto">
                         <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.WIP}>
                             <div className={PresentationStyle.Title}>📚 What I’m learning 📚</div>
                             <div className={PresentationStyle.Description}>

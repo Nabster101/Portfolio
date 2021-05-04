@@ -6,7 +6,6 @@
     cursor: default;
 }
 
-
 .ComponentTitleContainer{
     margin-bottom: 5vh;
 }
@@ -63,4 +62,171 @@
     color: white;
     font-size: 25px;
     font-weight: 600;
+}
+
+@media screen and (min-width: 0px) {
+    .ComponentTitleContainer{
+        margin-bottom: 10vh;
+        text-align: center;
+    }
+    .ComponentTitle{
+        font-size: 35px;
+    }
+    .Seperators{
+        width: 7vh;
+        vertical-align: super;
+    }
+    .ObjectivesContainer{
+        width: 290px;
+        height: 380px;
+        border-radius: 30px 30px 0px 0px;
+        padding: 5vh 5vh 5vh 5vh;
+        position: initial;
+        text-align: initial;
+    }
+    .Title{
+        font-size: 20px;
+        padding-bottom: 4vh;
+        text-align: center;
+    }
+    .Description{
+        font-size: 17px;
+    }
+    .WIP{
+        margin-top: 0vh;
+        width: 290px;
+        height: 420px;
+        border-radius: 0px 0px 30px 30px;
+        padding: 5vh 5vh 5vh 5vh;
+        text-align: initial;
+    }
+    .Presentation{
+        height: 1000px;
+        margin-bottom: 20vh;
+    }
+    .CardContainer{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .WIP{
+        width: 310px;
+        height: 480px;
+    }
+    .ObjectivesContainer{
+        width: 310px;
+    }
+}
+
+@media screen and (min-width: 414px){
+    .WIP{
+        width: 330px;
+    }
+    .Title{
+        font-size: 22px;
+    }
+    .ObjectivesContainer{
+        width: 330px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .Title{
+        font-size: 20px;
+    }
+    .Presentation{
+        margin-bottom: 30vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .ObjectivesContainer{
+        border-radius: 30px 30px 30px 30px;
+        padding: 4vh 5vh 5vh 4vh;
+        height: 400px;
+    }
+    .ComponentTitle{
+        font-size: 40px;
+    }
+    .Seperators{
+        width: 15vh;
+    }
+    .WIP{
+        border-radius: 30px 30px 30px 30px;
+        padding: 4vh 5vh 5vh 4vh;
+        width: 350px;
+        height: 400px;
+    }
+    .Presentation{
+        height: 565px;
+        margin-bottom: 30vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ObjectivesContainer{
+        height: 460px;
+        width: 400px;
+    }
+    .WIP{
+        height: 460px;
+        width: 400px;
+    }
+    .Title{
+        font-size: 24px;
+    }
+    .Description{
+        font-size: 19px;
+    }
+    .CardContainer{
+        text-align: initial;
+    }
+    .Presentation{
+        height: 665px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .ObjectivesContainer{
+        width: 470px;
+        height: 520px;
+    }
+    .WIP{
+        width: 470px;
+        height: 520px;
+    }
+    .Title{
+        font-size: 33px;
+    }
+    .Description{
+        font-size: 25px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .ObjectivesContainer{
+        width: 540px;
+    }
+    .WIP{
+        width: 540px;
+    }
+    .Title{
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .ObjectivesContainer{
+        width: 650px;
+        height: 430px;
+    }
+    .WIP{
+        width: 650px;
+        height: 430px;
+    }
+    .Title{
+        font-size: 40px;
+    }
 }
