@@ -86,8 +86,8 @@
 }
 
 #second{
-    margin-right: 8vh;
-    margin-left: 8vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     background-image: url("../../images/ZeroRobotics.png");
     .ProjectCardButton{
         margin-top: 0vh !important;
@@ -170,8 +170,8 @@
 
 
 #fifth{
-    margin-right: 8vh;
-    margin-left: 8vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     background-image: url("../../images/RunHack.png");
     .ProjectCardButton{
         margin-top: -5vh !important;
@@ -223,4 +223,244 @@
     }
     background: linear-gradient(to top, transparent, 70%, #24a0ed),
     url("../../images/GitHub.png");
+}
+
+@media screen and (min-width: 0px) {
+    .TitleContainer{
+        text-align: center;
+    }
+    .ProjectsContainer{
+        text-align: center;
+    }
+    .ComponentTitle{
+        font-size: 33px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .Seperators{
+        width: 7vh;
+        vertical-align: super;
+    }
+    #first{
+        background-image: url("../../images/CyberChallengePhone.png");
+        background-position: center;
+    }
+    #first:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/CyberChallengePhone.png");
+    background-position: center;
+    }
+    #second{
+        background-image: url("../../images/ZeroRoboticsPhone.png");
+        background-position: center;
+    }
+    #second:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/ZeroRoboticsPhone.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 1vh !important;
+            opacity: 1;
+        }
+    }
+    #third{
+        background-image: url("../../images/LogoFermiPhone.png");
+        background-position: center;
+    }
+    #third:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/LogoFermiPhone.png");
+        background-position: center;
+    }
+    #fourth{
+        background-image: url("../../images/PulseeHackathonPhone.png");
+        background-position: center;
+    }
+    #fourth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/PulseeHackathonPhone.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 0vh !important;
+            opacity: 1;
+        }
+    }
+    #fifth{
+        background-image: url("../../images/RunHackPhone.png");
+        background-position: center;
+    }
+    #fifth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/RunHackPhone.png");
+        background-position: center;
+    }
+    #sixth{
+        background-image: url("../../images/GitHubPhone.png");
+        background-position: center;
+    }
+    #sixth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/GitHubPhone.png");
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #first{
+        background-image: url("../../images/CyberChallenge.png");
+        background-position: center;
+    }
+    #first:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/CyberChallenge.png");
+    background-position: center;
+    }
+    #second{
+        background-image: url("../../images/ZeroRobotics.png");
+        background-position: center;
+    }
+    #second:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/ZeroRobotics.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 1vh !important;
+            opacity: 1;
+        }
+    }
+    #third{
+        background-image: url("../../images/LogoFermi.png");
+        background-position: center;
+    }
+    #third:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/LogoFermiPhone.png");
+        background-position: center;
+    }
+    #fourth{
+        background-image: url("../../images/PulseeHackathon.png");
+        background-position: center;
+    }
+    #fourth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/PulseeHackathon.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 0vh !important;
+            opacity: 1;
+        }
+    }
+    #fifth{
+        background-image: url("../../images/RunHack.png");
+        background-position: center;
+    }
+    #fifth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/RunHack.png");
+        background-position: center;
+    }
+    #sixth{
+        background-image: url("../../images/GitHub.png");
+        background-position: center;
+    }
+    #sixth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/GitHub.png");
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .TitleContainer{
+        text-align: center;
+    }
+    .ProjectsContainer{
+        text-align: center;
+    }
+    .ComponentTitle{
+        font-size: 33px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .Seperators{
+        width: 7vh;
+        vertical-align: super;
+    }
+    #first{
+        background-image: url("../../images/CyberChallengePhone.png");
+        background-position: center;
+    }
+    #first:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+    url("../../images/CyberChallengePhone.png");
+    background-position: center;
+    }
+    #second{
+        background-image: url("../../images/ZeroRoboticsPhone.png");
+        background-position: center;
+    }
+    #second:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/ZeroRoboticsPhone.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 1vh !important;
+            opacity: 1;
+        }
+    }
+    #third{
+        background-image: url("../../images/LogoFermiPhone.png");
+        background-position: center;
+    }
+    #third:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/LogoFermiPhone.png");
+        background-position: center;
+    }
+    #fourth{
+        background-image: url("../../images/PulseeHackathonPhone.png");
+        background-position: center;
+    }
+    #fourth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/PulseeHackathonPhone.png");
+        background-position: center;
+        .ProjectCardButton{
+            margin-top: 0vh !important;
+            opacity: 1;
+        }
+    }
+    #fifth{
+        background-image: url("../../images/RunHackPhone.png");
+        background-position: center;
+    }
+    #fifth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/RunHackPhone.png");
+        background-position: center;
+    }
+    #sixth{
+        background-image: url("../../images/GitHubPhone.png");
+        background-position: center;
+    }
+    #sixth:hover{
+        background: linear-gradient(to top, transparent, 70%, #24a0ed),
+        url("../../images/GitHubPhone.png");
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #second{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        margin-left: 2vh;
+        margin-right: 10vh;
+    }
+    #fifth{
+        margin-top: 0vh;
+        margin-bottom: 0vh;
+        margin-left: 2vh;
+        margin-right: 10vh;
+    }
 }

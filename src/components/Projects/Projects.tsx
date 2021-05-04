@@ -38,7 +38,7 @@ const Projects = (props:Props) => {
             </Container>
             <Container id={ProjectsStyle.FirstContainer} fluid className={ProjectsStyle.ProjectsContainer}>
                 <Row className="justify-content-between">
-                    <Col md="auto">
+                    <Col md={12} xl={4}>
                         <ProjectCard
                             id={ProjectsStyle.first}
                             title="CyberChallenge.IT"
@@ -50,6 +50,8 @@ const Projects = (props:Props) => {
                             className5={ProjectsStyle.ProjectCardButton}
                             aos="zoom-in-right"
                         />
+                    </Col>
+                    <Col md={12} xl={4}>
                         <ProjectCard
                             id={ProjectsStyle.second}
                             title="Zero Robotics"
@@ -61,6 +63,8 @@ const Projects = (props:Props) => {
                             className5={ProjectsStyle.ProjectCardButton}
                             aos="fade-down"
                         />
+                    </Col>
+                    <Col md={12} xl={4}>
                         <ProjectCard
                             id={ProjectsStyle.third}
                             title="My Highschool's Timetable"
@@ -79,7 +83,7 @@ const Projects = (props:Props) => {
             <Collapse in={open}>
                 <Container id={ProjectsStyle.secondcontainer} fluid className={ProjectsStyle.ProjectsContainer}>
                     <Row className="justify-content-between">
-                        <Col md="auto">
+                        <Col md={12} xl={4}>
                             <ProjectCard
                                 id={ProjectsStyle.fourth}
                                 title="Pulsee hackathon"
@@ -91,6 +95,8 @@ const Projects = (props:Props) => {
                                 className5={ProjectsStyle.ProjectCardButton}
                                 aos="zoom-in-right"
                             />
+                        </Col>
+                        <Col md={12} xl={4}>
                             <ProjectCard
                                 id={ProjectsStyle.fifth}
                                 title="RunHack hackathon"
@@ -102,6 +108,8 @@ const Projects = (props:Props) => {
                                 className5={ProjectsStyle.ProjectCardButton}
                                 aos="fade-down"
                             />
+                        </Col>
+                        <Col md={12} xl={4}>
                             <ProjectCard
                                 id={ProjectsStyle.sixth}
                                 title="Github projects"

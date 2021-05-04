@@ -47,3 +47,82 @@
     font-weight: 600;
     transition: 0.3s;
 }
+
+@media screen and (min-width: 0px) {
+    .Title{
+        font-size: 20px;
+    }
+    .ProjectCard{
+        width: 45vh;
+        height: 40vh;
+    }
+    .Description{   
+        font-size: 14px;
+    }
+    .Button{
+        padding: 1px 15px 1px 15px;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .ProjectCard{
+        width: 40vh;
+        height: 35vh;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .ProjectCard{
+        width: 40vh;
+        height: 30vh;
+    }   
+}
+
+@media screen and (min-width: 500px) {
+    .Description{   
+        font-size: 18px;
+    }
+    .Title{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Title{
+        font-size: 30px;
+    }
+    .Description{   
+        font-size: 18px;
+    }
+    .Button{
+        padding: 3px 45px 3px 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ProjectCard{
+        width: 40vh;
+        height: 30vh;
+    }   
+    .Title{
+        font-size: 35px;
+    }
+    .Description{   
+        font-size: 30px;
+    }
+    .Button{
+        font-size: 27px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .Title{
+        font-size: 30px;
+    }
+    .Description{   
+        font-size: 18px;
+    }
+    .Button{
+        font-size: 20px;
+    }
+}
