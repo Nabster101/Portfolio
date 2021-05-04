@@ -25,7 +25,7 @@ const Resume = () =>{
                     </Col>
                 </Row>
             </Container>
-            <Container>
+            <Container >
                 <Row>
                     <Col>
                         <div data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" className={ResumeStyle.ResumeContainer}>

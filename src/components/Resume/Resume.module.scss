@@ -89,3 +89,56 @@
 .FlagITA:hover{
     box-shadow: inset 4px 4px 15px 0px #000000;
 }
+
+@media screen and (min-width: 0px) {
+    .ComponentTitle{
+        font-size: 33px;
+        margin-left: 2vh;
+        margin-right: 2vh;
+    }
+    .Seperators{
+        width: 7vh;
+        vertical-align: super;
+    }
+    .TextTitle{
+        font-size: 20px;
+    }
+    .ResumeContainer{
+        width: 80%;
+    }
+    .Resume{
+        margin-bottom: 20vh;
+    }
+    .TitleContainer{
+        text-align: center;
+    }
+    .ResumeContainer{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .Resume{
+        margin-bottom: 20vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ResumeContainer{
+        width: 60%;
+        height: 350px;
+    }
+    .TextTitle{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .ResumeContainer{
+        width: 60%;
+        height: 310px;
+    }
+    .TextTitle{
+        font-size: 40px;
+    }
+}
