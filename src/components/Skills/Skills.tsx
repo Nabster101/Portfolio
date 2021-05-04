@@ -27,7 +27,7 @@ const Skills = () => {
             </Container>
             <Container className={SkillsStyle.SkillsContainer}>
                 <Row className="justify-content-around">
-                    <Col md="auto" className={SkillsStyle.Project_Column}>
+                    <Col md={10} lg={4} className={SkillsStyle.Project_Column}>
                         <SkillCard
                             skills={[
                                 { value: "Gatsby.js" },
@@ -42,6 +42,8 @@ const Skills = () => {
                             className={SkillsStyle.SkillCard}
                             aos="fade-right"
                         />
+                    </Col>
+                    <Col md={10} lg={4} className={SkillsStyle.Project_Column}>
                         <SkillCard
                             skills={[
                                 { value: "Adobe Photoshop" },
@@ -53,6 +55,8 @@ const Skills = () => {
                             className={SkillsStyle.SkillCard}
                             aos="flip-up"
                         />
+                    </Col>
+                    <Col md={10} lg={4} className={SkillsStyle.Project_Column}>
                         <SkillCard
                             skills={[
                                 { value: "Java" },
