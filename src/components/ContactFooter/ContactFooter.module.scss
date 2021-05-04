@@ -52,6 +52,7 @@ html {
     -moz-transform:    scale(1.1);
     -ms-transform:     scale(1.1); 
     -o-transform:      scale(1.1); 
+    transform:         scale(1.1);
     text-shadow: 1px 1px #02a2fe, 2px 2px #02a2fe, 3px 3px #02a2fe, 4px 4px #02a2fe, 5px 5px #02a2fe, 6px 6px #02a2fe;
 }
 
@@ -94,5 +95,69 @@ html {
 }
 
 .Text{
-    margin-top: 5vh;
+    margin-top: 8vh;
+}
+
+@media screen and (min-width: 0px) {
+    .FooterImage{
+        height: 160px;
+    }
+    .Text{
+        margin-top: 20vh;
+    }
+    .SocialIcon{
+        margin-bottom: 2vh;
+    }
+}
+
+
+@media screen and (min-width: 375px) {
+    .Text{
+        margin-top: 16vh;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .FooterImage{
+        height: 160px;
+    }
+    .Text{
+        margin-top: 18vh;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .Text{
+        margin-top: 12vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Text{
+        margin-top: 9vh;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .SocialIcon{
+        height: 75px !important;
+        width: 75px !important;
+        padding: 15px 15px 15px 15px;
+    }
+    .Text{
+        font-size: 22px;
+        margin-top: 5vh;
+    }
+    .FooterContainer{
+        height: 460px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .SocialIcon{
+        height: 55px !important;
+        width: 55px !important;
+        padding: 10px 10px 10px 10px;
+    }
 }
