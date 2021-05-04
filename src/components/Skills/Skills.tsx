@@ -40,7 +40,7 @@ const Skills = () => {
                             id={SkillsStyle.first}
                             title="Front end"
                             className={SkillsStyle.SkillCard}
-                            aos="fade-right"
+                            aos="fade-down"
                         />
                     </Col>
                     <Col md={10} lg={4} className={SkillsStyle.Project_Column}>
@@ -67,7 +67,7 @@ const Skills = () => {
                             id={SkillsStyle.third}
                             title="Back end"
                             className={SkillsStyle.SkillCard}
-                            aos="fade-left"
+                            aos="fade-down"
                         />
                     </Col>
                 </Row>

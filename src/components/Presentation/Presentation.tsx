@@ -30,7 +30,7 @@ const Presentation = (props:Props) => {
             <Container fluid className={PresentationStyle.CardContainer} >
                 <Row className="justify-content-center">
                     <Col md={6} lg="auto" xl="auto">
-                        <div data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.ObjectivesContainer}>
+                        <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.ObjectivesContainer}>
                             <div className={PresentationStyle.Title}>🚀 My objectives 🚀</div>
                             <div className={PresentationStyle.Description}>
                                 <ul>
@@ -51,7 +51,7 @@ const Presentation = (props:Props) => {
                         </div>
                     </Col>
                     <Col md={6} lg="auto" xl="auto">
-                        <div data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.WIP}>
+                        <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" className={PresentationStyle.WIP}>
                             <div className={PresentationStyle.Title}>📚 What I’m learning 📚</div>
                             <div className={PresentationStyle.Description}>
                                 <ul>
