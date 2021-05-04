@@ -77,6 +77,7 @@
     }
     .Skills{
         height: 195vh;
+        margin-bottom: 20vh;
     }
 }
 
@@ -84,6 +85,7 @@
 @media screen and (min-width: 500px) {
     .Skills{
         height: 165vh;
+        margin-bottom: 30vh;
     }
 }
 
@@ -102,6 +104,18 @@
     }
 }
 
+@media screen and (min-width: 769px) {
+    .Skills{
+        height: 162vh;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    .Skills{
+        height: 51vh;
+    }
+}
 
 @media screen and (min-width: 1024px) {
     .Skills{
