@@ -2,13 +2,14 @@
 
 .Skills{
     height: 70vh;
-    margin-bottom: 20vh;
+    margin-bottom: 30vh;
     margin-top: 20vh;
     cursor: default;
 }
 
 .TitleContainer{
     margin-bottom: 10vh;
+    text-align: center;
 }
 
 .Seperators{
@@ -17,7 +18,7 @@
     width: 15vh;
     margin-top: 0.3vh;
     display: inline-flex;
-    vertical-align: text-top;
+    vertical-align: super;
 }
 
 .Title{
@@ -46,8 +47,6 @@
 }
 
 #second{
-    margin-right: 8vh;
-    margin-left: 8vh;
     background-image: url("../../images/FrontendCardBlue.png");
 }
 
@@ -61,4 +60,57 @@
 
 #third:hover{
     background-image: url("../../images/BackendCard.png");
+}
+
+@media screen and (min-width: 0px) {
+    .Title{
+        font-size: 35px;
+    }
+    .Seperators{
+        width: 7vh;
+    }
+    .SkillsContainer{
+        text-align: center;
+    }
+    .SkillCard{
+        margin-bottom: 5vh;
+    }
+    .Skills{
+        height: 195vh;
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .Skills{
+        height: 165vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .Title{
+        font-size: 45px;
+    }
+    .Seperators{
+        width: 15vh;
+    }
+    .Skills{
+        height: 150vh;
+    }
+    #second:hover{
+        background-image: url("../../images/GraphicDesignCard2.png");
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .Skills{
+        height: 51vh;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .Skills{
+        height: 63vh;
+    }
 }
