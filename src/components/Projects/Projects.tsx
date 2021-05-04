@@ -13,7 +13,7 @@ setTimeout(() => {
 }, 1000) 
 
 interface Props{
-    id: String
+    id: string
 }
 
 
@@ -48,7 +48,7 @@ const Projects = (props:Props) => {
                             className3={ProjectsStyle.ProjectCardDescription}
                             className4={ProjectsStyle.ProjectCardTextContainer}
                             className5={ProjectsStyle.ProjectCardButton}
-                            aos="zoom-in-right"
+                            aos="fade-down"
                         />
                     </Col>
                     <Col md={12} xl={4}>
@@ -74,7 +74,7 @@ const Projects = (props:Props) => {
                             className3={ProjectsStyle.ProjectCardDescription}
                             className4={ProjectsStyle.ProjectCardTextContainer}
                             className5={ProjectsStyle.ProjectCardButton}
-                            aos="zoom-in-left"
+                            aos="fade-down"
                         />
                     </Col>
                 </Row>
@@ -93,7 +93,7 @@ const Projects = (props:Props) => {
                                 className3={ProjectsStyle.ProjectCardDescription}
                                 className4={ProjectsStyle.ProjectCardTextContainer}
                                 className5={ProjectsStyle.ProjectCardButton}
-                                aos="zoom-in-right"
+                                aos="fade-down"
                             />
                         </Col>
                         <Col md={12} xl={4}>
@@ -119,7 +119,7 @@ const Projects = (props:Props) => {
                                 className3={ProjectsStyle.ProjectCardDescription}
                                 className4={ProjectsStyle.ProjectCardTextContainer}
                                 className5={ProjectsStyle.ProjectCardButton}
-                                aos="zoom-in-left"
+                                aos="fade-down"
                             />
                         </Col>
                     </Row>
