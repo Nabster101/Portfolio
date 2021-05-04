@@ -226,6 +226,9 @@
 }
 
 @media screen and (min-width: 0px) {
+    .Projects{
+        margin-bottom: 20vh;
+    }
     .TitleContainer{
         text-align: center;
     }
@@ -302,6 +305,12 @@
         background: linear-gradient(to top, transparent, 70%, #24a0ed),
         url("../../images/GitHubPhone.png");
         background-position: center;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .Projects{
+        margin-bottom: 20vh;
     }
 }
 
