@@ -9,17 +9,23 @@ const Footer = () => {
     return(
         <section className={FooterStyle.Footer}>
             <Container fluid className={FooterStyle.FooterContainer}>
-                <Row>
-                    <Col>
-                        <div className={FooterStyle.TextBox}>
-                            <Link className={FooterStyle.SectionsLink} to="Home" spy={true} smooth={true} duration={300} offset={-200}>Home</Link>
-                            <Link className={FooterStyle.SectionsLink} to="Skills" spy={true} smooth={true} duration={300} offset={-200}>Skills</Link>
-                            <img className={FooterStyle.FooterImage} src={require("../../images/Navbar-Icon.png")}/>
-                            <Link className={FooterStyle.SectionsLink} to="Info" spy={true} smooth={true} duration={300} offset={-200}>Info</Link>
-                            <Link className={FooterStyle.SectionsLink} to="Projects" spy={true} smooth={true} duration={300} offset={-200}>Projects</Link>
-                        </div>
+                <Row className={FooterStyle.RowLink}>
+                    <Col xs={6} xl={6}>
+                        <Link id={FooterStyle.top} className={FooterStyle.SectionsLink} to="Home" spy={true} smooth={true} duration={300} offset={-200}>Home</Link>
+                    </Col>
+                    <Col xs={6} xl={6}>
+                        <Link id={FooterStyle.bottom} className={FooterStyle.SectionsLink} to="Skills" spy={true} smooth={true} duration={300} offset={-200}>Skills</Link>
+                    </Col> 
+                </Row>
+                <Row className={FooterStyle.RowLink}>
+                    <Col xs={6} xl={6}>
+                        <Link id={FooterStyle.top} className={FooterStyle.SectionsLink} to="Info" spy={true} smooth={true} duration={300} offset={-200}>Info</Link>
+                    </Col>
+                    <Col xs={6} xl={6}>
+                        <Link id={FooterStyle.bottom} className={FooterStyle.SectionsLink} to="Projects" spy={true} smooth={true} duration={300} offset={-200}>Projects</Link>
                     </Col>
                 </Row>
+                <img className={FooterStyle.FooterImage} src={require("../../images/Navbar-Icon.png")}/>
                 <Row>
                     <Col>
                         <div className={FooterStyle.SocialIconContainer}>

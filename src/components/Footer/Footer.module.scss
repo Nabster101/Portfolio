@@ -42,6 +42,7 @@ html {
    cursor: pointer;
 }
 
+
 .SectionsLink:hover{
     color: white;
     transition: 0.3s;
@@ -52,6 +53,7 @@ html {
     -moz-transform:    scale(1.1);
     -ms-transform:     scale(1.1); 
     -o-transform:      scale(1.1); 
+    transform:         scale(1.1);
     text-shadow: 1px 1px #02a2fe, 2px 2px #02a2fe, 3px 3px #02a2fe, 4px 4px #02a2fe, 5px 5px #02a2fe, 6px 6px #02a2fe;
 }
 
@@ -95,4 +97,148 @@ html {
 
 .Text{
     margin-top: 5vh;
+}
+
+@media screen and (min-width: 0px) {
+    .SectionsLink{
+        font-size: 23px;
+        margin-right: 3vh;
+    }
+    .FooterImage{
+        height: 120px;
+    }
+    .FooterContainer{
+        text-align: center;
+        padding-top: 5vh;
+        height: 490px;
+    }
+    .RowLink{
+        justify-content: center;
+        margin-bottom: 2vh;
+    }
+    .Text{
+        margin-top: 18vh;
+    }
+    .SocialIcon{
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .FooterContainer{
+        height: 560px;
+    }
+    .Text{
+        margin-top: 18vh;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .FooterContainer{
+        height: 560px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .FooterContainer{
+        height: 430px;
+    }
+    .Text{
+        margin-top: 10vh;
+    }
+    .FooterImage{
+        position: relative;
+        left: 3px;
+        bottom: 125px;
+    }
+    .SocialIconContainer{
+        margin-top: -10vh;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .FooterContainer{
+        height: 390px;
+    }
+    .Text{
+        margin-top: 1vh;
+    }
+    .SocialIcon{
+        margin-top: 1vh;
+    }
+    .SectionsLink{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .SocialIconContainer{
+        margin-top: -13vh;
+    }
+    .FooterImage{
+        bottom: 150px;
+        height: 140px;
+    }
+    .SectionsLink{
+        font-size: 35px;
+    }
+    .FooterContainer{
+        height: 400px;
+    }
+    .Text{
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .FooterImage{
+        bottom: 185px;
+        height: 170px;
+    }
+    .SectionsLink{
+        font-size: 40px;
+    }
+    .FooterContainer{
+        height: 475px;
+    }
+    .SocialIcon{
+        height: 75px !important;
+        width: 75px !important;
+        padding: 15px 15px 15px 15px;
+    }
+    .Text{
+        font-size: 22px;
+        margin-top: -1vh;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    #top{
+        margin-left: 15vh;
+    }
+    #bottom{
+        margin-right: 15vh;
+    }
+    .SocialIcon{
+        height: 55px !important;
+        width: 55px !important;
+        padding: 10px 10px 10px 10px;
+    }
+    .SocialIconContainer{
+        margin-top: -13vh;
+    }
+    .Text{
+        margin-top: 2vh;
+    }
+}
+
+
+@media screen and (min-width: 1700px) {
+    #top{
+        margin-left: 53vh;
+    }
+    #bottom{
+        margin-right: 53vh;
+    }
 }
