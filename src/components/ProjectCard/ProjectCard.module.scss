@@ -126,3 +126,17 @@
         font-size: 20px;
     }
 }
+
+
+@media screen and (min-width: 1536px) {
+    .Description{
+        font-size: 15px;
+    }
+    .Title{
+        font-size: 25px;
+    }
+    .ProjectCard{
+        width: 44vh;
+        height: 35vh;
+    }
+}

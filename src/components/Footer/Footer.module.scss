@@ -233,6 +233,17 @@ html {
     }
 }
 
+@media screen and (min-width: 1536px) {
+    #top{
+        margin-left: 40vh;
+    }
+    #bottom{
+        margin-right: 38vh;
+    }
+    .FooterImage{
+        bottom: 170px;
+    }
+}
 
 @media screen and (min-width: 1700px) {
     #top{
